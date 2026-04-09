@@ -9,7 +9,9 @@ Zod handles validation internally. You never touch Zod directly.
 ## Install
 
 ```bash
-npm install zod firebase
+npm install firestore-schema-kit
+pnpm add firestore-schema-kit
+bun add firestore-schema-kit
 ```
 
 Copy `src/` into your project (e.g. `lib/firebase-schema/`).
