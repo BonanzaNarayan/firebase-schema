@@ -6,7 +6,19 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Bonanza Narayan",
   "license": "ISC",
-  "description": ""
+  "description": "Drizzle-style schema validation for Firebase Firestore.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BonanzaNarayan/firebase-schema.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BonanzaNarayan/firebase-schema/issues"
+  },
+  "homepage": "https://github.com/BonanzaNarayan/firebase-schema#readme",
+  "dependencies": {
+    "firebase": "^12.11.0",
+    "zod": "^4.3.6"
+  }
 }
