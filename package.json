@@ -32,8 +32,10 @@
   },
   "homepage": "https://github.com/BonanzaNarayan/firebase-schema#readme",
   "dependencies": {
-    "firebase": "^12.11.0",
     "zod": "^4.3.6"
+  },
+  "peerDependencies": {
+    "firebase": "^12.11.0"
   },
   "devDependencies": {
     "typescript": "^6.0.2"
