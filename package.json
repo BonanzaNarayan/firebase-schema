@@ -1,12 +1,24 @@
 {
   "name": "firestore-schema-kit",
   "version": "1.0.0",
-  "main": "index.js",
-  "exports": "./index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
   "type": "module",
   "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "dist",
+    "readme.md"
+  ],
   "keywords": [],
   "author": "Bonanza Narayan",
   "license": "ISC",
@@ -23,5 +35,7 @@
     "firebase": "^12.11.0",
     "zod": "^4.3.6"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "typescript": "^6.0.2"
+  }
 }
